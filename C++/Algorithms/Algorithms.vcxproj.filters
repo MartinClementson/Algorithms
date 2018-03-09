@@ -16,6 +16,12 @@
     <Filter Include="OddOccurrencesInArray">
       <UniqueIdentifier>{1deb32d9-d535-4bb1-889a-2daedf1f96f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CyclicRotation">
+      <UniqueIdentifier>{1b1ce868-a578-4661-9d86-0391e919a006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{bbddcd29-f665-4b5c-ab3c-5efef7d9812b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -24,15 +30,33 @@
     <ClCompile Include="OddOccurrencesInArray.cpp">
       <Filter>OddOccurrencesInArray</Filter>
     </ClCompile>
+    <ClCompile Include="CyclicRotation.cpp">
+      <Filter>CyclicRotation</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="OddOccurrencesInArray_Problem.txt">
       <Filter>OddOccurrencesInArray</Filter>
     </Text>
+    <Text Include="CyclicRotation_Problem.txt">
+      <Filter>CyclicRotation</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OddOccurrencesInArray.h">
       <Filter>OddOccurrencesInArray</Filter>
+    </ClInclude>
+    <ClInclude Include="CyclicRotation.h">
+      <Filter>CyclicRotation</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
