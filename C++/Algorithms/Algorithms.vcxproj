@@ -119,16 +119,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CyclicRotation.cpp" />
+    <ClCompile Include="FrogJmp.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OddOccurrencesInArray.cpp" />
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CyclicRotation_Problem.txt" />
+    <Text Include="FrogJmp_Problem.txt" />
     <Text Include="OddOccurrencesInArray_Problem.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CyclicRotation.h" />
+    <ClInclude Include="FrogJmp.h" />
     <ClInclude Include="Stopwatch.h" />
     <ClInclude Include="Utilities.h" />
     <ClInclude Include="OddOccurrencesInArray.h" />

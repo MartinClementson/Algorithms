@@ -19,6 +19,7 @@ void PrintVector(std::vector <T>& vec)
 
 int main()
 {
+	win32::Stopwatch timer;
 	double naiveTime, time;
 	std::vector<int> input = { 3, 8, 9, 7 };
 
@@ -36,23 +37,20 @@ int main()
 	}
 	
 	//ODD_OCCUR::solution(input);
-	win32::Stopwatch timer;
-	timer.Start();
-	CyclicRotation::solution(input, 5000);
-	timer.Stop();
-	time = timer.ElapsedMilliseconds();
-	timer.Reset();
-
+	//CyclicRotation::solution(input, 5000);
+	
+	
 	//timer.Start();
-	//CyclicRotation::naiveSolution(input, 5000);
 	//timer.Stop();
-	//naiveTime = timer.ElapsedMilliseconds();
+	//time = timer.ElapsedMilliseconds();
 	//timer.Reset();
 
 
 
+
+
 	//cout << "Elapsed Time (Naive): " << naiveTime << std::endl;
-	cout << "Elapsed Time        : " << time << std::endl;
+//	cout << "Elapsed Time        : " << time << std::endl;
 	
 	getchar();
 }

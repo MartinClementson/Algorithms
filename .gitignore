@@ -31,3 +31,4 @@ C++/Debug/vc140.pdb
 C++/Algorithms.VC.VC.opendb
 C++/Algorithms/Debug/CyclicRotation.obj
 C++/Algorithms/Debug/Utilities.obj
+*.obj
