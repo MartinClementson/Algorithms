@@ -1,8 +1,8 @@
 #include "OddOccurrencesInArray.h"
 #include "CyclicRotation.h"
+#include "PermMissingElem.h"
 #include <iostream>
 #include "Utilities.h"
-
 
 template <typename T> 
 void PrintVector(std::vector <T>& vec)
@@ -21,10 +21,10 @@ int main()
 {
 	win32::Stopwatch timer;
 	double naiveTime, time;
-	std::vector<int> input = { 3, 8, 9, 7 };
+	std::vector<int> input = {2,3,1,5 };
 
 
-	input = Util::GenerateRndVector_INT(50000,0,100);
+	//input = Util::GenerateRndVector_INT(50000,0,100);
 	
 	if (input.size() > 10)
 	{
@@ -35,6 +35,8 @@ int main()
 		cout << "Input Values : ";
 		PrintVector(input);
 	}
+
+	PermMissingElem::solution(input);
 	
 	//ODD_OCCUR::solution(input);
 	//CyclicRotation::solution(input, 5000);

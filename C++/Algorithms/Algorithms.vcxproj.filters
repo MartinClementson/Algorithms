@@ -25,6 +25,9 @@
     <Filter Include="FrogJmp">
       <UniqueIdentifier>{dff88fbc-984d-4202-8636-b3a0d714382c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PermMissingElem">
+      <UniqueIdentifier>{f59a9243-c8a0-4bfc-9ce5-938805e9b3a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="FrogJmp.cpp">
       <Filter>FrogJmp</Filter>
     </ClCompile>
+    <ClCompile Include="PermMissingElem.cpp">
+      <Filter>PermMissingElem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="OddOccurrencesInArray_Problem.txt">
@@ -52,6 +58,9 @@
     </Text>
     <Text Include="FrogJmp_Problem.txt">
       <Filter>FrogJmp</Filter>
+    </Text>
+    <Text Include="PermMissingElem_Problem.txt">
+      <Filter>PermMissingElem</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +78,9 @@
     </ClInclude>
     <ClInclude Include="FrogJmp.h">
       <Filter>FrogJmp</Filter>
+    </ClInclude>
+    <ClInclude Include="PermMissingElem.h">
+      <Filter>PermMissingElem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
