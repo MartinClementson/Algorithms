@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="CyclicRotation.cpp" />
     <ClCompile Include="FrogJmp.cpp" />
+    <ClCompile Include="FrogRiverOne.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OddOccurrencesInArray.cpp" />
     <ClCompile Include="PermMissingElem.cpp" />
@@ -128,12 +129,14 @@
   <ItemGroup>
     <Text Include="CyclicRotation_Problem.txt" />
     <Text Include="FrogJmp_Problem.txt" />
+    <Text Include="FrogRiverOne_Problem.txt" />
     <Text Include="OddOccurrencesInArray_Problem.txt" />
     <Text Include="PermMissingElem_Problem.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CyclicRotation.h" />
     <ClInclude Include="FrogJmp.h" />
+    <ClInclude Include="FrogRiverOne.h" />
     <ClInclude Include="PermMissingElem.h" />
     <ClInclude Include="Stopwatch.h" />
     <ClInclude Include="Utilities.h" />

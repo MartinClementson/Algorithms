@@ -3,7 +3,7 @@
 #include "PermMissingElem.h"
 #include <iostream>
 #include "Utilities.h"
-
+#include "FrogRiverOne.h"
 template <typename T> 
 void PrintVector(std::vector <T>& vec)
 {	
@@ -21,7 +21,7 @@ int main()
 {
 	win32::Stopwatch timer;
 	double naiveTime, time;
-	std::vector<int> input = {2,3,1,5 };
+	std::vector<int> input = { 1, 3, 1, 4, 2, 3, 5, 4 };
 
 
 	//input = Util::GenerateRndVector_INT(50000,0,100);
@@ -36,8 +36,8 @@ int main()
 		PrintVector(input);
 	}
 
-	PermMissingElem::solution(input);
-	
+	FrogRiverOne::solution(5, input);
+	//PermMissingElem::solution(input);
 	//ODD_OCCUR::solution(input);
 	//CyclicRotation::solution(input, 5000);
 	
